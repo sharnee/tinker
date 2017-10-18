@@ -9,19 +9,20 @@
     "watch": "webpack --watch & node-sass --watch ./scss -o ./css",
     "serve": "npm run watch & live-server"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/sharnee/tinker"
   },
   "author": "Shar'nee Francis",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-latest": "^6.24.1",
-    "webpack": "^3.3.0"
+    "webpack": "^3.8.1"
   },
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3"
   }
 }
